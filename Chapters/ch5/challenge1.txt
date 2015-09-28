@@ -1,0 +1,35 @@
+Challenge 1-Chapter 5 Python Programming
+
+Add XY Coordinates
+Syntax-  AddXY_management(in_features)
+
+in_features
+	Adds the fields POINT_X and POINT_Y to the point input features and calculates their values. It also appends the POINT_z and POINT_M fields
+if the input features are Z and M are enabled.
+
+INPUTS(Required)
+	-in_features(Feature layer): The point features whose x,y coordinates will be appended as POINT_X and POINT_Y fields.
+
+
+
+
+Dissolve Tool
+Syntax-  Dissolve_management(in_features,out_features,{dissolve_field},{statistics_field}, {multi_part},{unsplit_lines}).
+
+Required Parameters
+
+	in_features
+	out_feature_class
+
+
+Optional Parameters
+
+	unsplit_lines: UNCHECKED- lines are dissolved into a single feature(DEFAULT)
+
+	multi_part: CHECKED- specifies multi-part features are allowed. This is the DEFAULT.
+
+	statistics_fields
+
+	dissolve_field
+
+
